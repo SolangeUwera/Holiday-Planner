@@ -1,0 +1,198 @@
+.file{
+    padding:18px;
+}
+.filee{
+ padding: 0;
+}
+
+
+
+.addTurForm{
+    background-color: white;
+    width: 60%;
+    margin-left: 350px;
+    margin-top: 110px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    gap: 5px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 7px 1px 6px 8px #dcdadacf;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .addTrurForm{
+    background-color: white;
+    width: 60%;
+    margin-left: 350px;
+    margin-top: 110px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+ 
+    padding-top: 1rem;
+    gap: 5px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 7px 1px 6px 8px #dcdadacf;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* .addTurForm h4{
+    font-size: 25px;
+    background-color: rgb(241, 196, 16);
+    border-radius: 10px;
+    padding: 5px;
+  } */
+
+  .addTrurForm label{
+    font-weight: 900;
+    /* background-color: #ddb66dac; */
+    border-radius: 10px;
+    /* border: 1px solid rgba(0, 0, 0, 0.445); */
+    border-left: 2px solid rgb(7, 1, 1);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    height: 30px;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    gap: 1rem;
+    padding: 19px;
+    margin-left: 1px;
+  }
+
+  .addTurForm label{
+    font-weight: 900;
+    /* background-color: #ddb66dac; */
+    border-radius: 10px;
+    /* border: 1px solid rgba(0, 0, 0, 0.445); */
+    border-left: 2px solid rgb(7, 1, 1);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    height: 30px;
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    gap: 1rem;
+    padding: 19px;
+    margin-left: 22%;
+  }
+  .addTrurForm input{
+    width: 350px;
+    height: 4rem;
+    border-radius: 10px;
+    border: 1px solid #ddb66d;
+    outline: none;
+    font-size: 17px;
+    padding-left: 5px;
+    text-indent: 10px;
+    text-transform: capitalize;
+  }
+
+  .addTurForm input{
+    width: 350px;
+    height: 4rem;
+    border-radius: 10px;
+    border: 1px solid #ddb66d;
+    outline: none;
+    font-size: 17px;
+    padding-left: 5px;
+    text-indent: 10px;
+    text-transform: capitalize;
+  }
+  .addTourbu{
+    background-color: #C29D59;
+    width: 50%;
+    height: 3rem;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+
+  .addTourbu:hover{
+    background-color: #cc8809;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .addTurForm {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1px;
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+    
+    }
+
+    .addTrurForm {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1px;
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+    
+    }
+  
+    .addTurForm label{
+      width: 350px;
+      margin-left: 1px;
+    }
+    .addTurForm input{
+      width: 350px;
+      height: 4rem;
+    }
+
+    .addTrurForm label{
+      width: 350px;
+      margin-left: 1px;
+    }
+    .addTrurForm input{
+      width: 350px;
+      height: 4rem;
+    }
+
+    .addTrurForm label{
+      width: 350px;
+      margin-left: 1px;
+    }
+    .addTrurForm input{
+      width: 350px;
+      height: 4rem;
+    }
+  
+    .addTourbu {
+      width: 80%;
+      font-size: 14px;
+      height: 2.5rem;
+    }
+
+  }
+/* 
+  @media only screen and (max-width:768px){
+
+   .addTurForm{
+    margin-left: 250px;
+   } 
+
+  } */

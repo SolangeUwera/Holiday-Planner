@@ -1,0 +1,585 @@
+
+body{
+    background-color: #fff;
+  }
+  
+  /* ----==============STATS=========================---*/
+  .statsloader{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  
+  }
+  
+  .stat-card{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 15px;
+  }
+  .stats-container{
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.909);
+    border: 1px solid rgba(0, 0, 0, 0.669);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 280px;
+  }
+  
+  .stats-img{
+    width: 50%;
+    height: 5rem;
+  }
+  
+  .stats-img img{
+    height: 5rem;
+    border-radius: 10px;
+  }
+  .stats-description{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .stats-desc-title{
+    color: black;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .stats-desc-amount{
+    color: black;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  /* ----=======================================---*/
+  
+  
+  .charts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+  
+  .left-chart{
+    height: 500px;
+    width: 500px;
+  }
+  .right-chart{
+    height: 250px;
+    width: 350px;
+  }
+  
+  
+  /* ----=======================================---*/
+  
+  .dashboard-center{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+      height: 100vh;
+      padding-left: 180px;  
+  }
+  
+  
+  /* ----=======================================---*/
+  /* ----=======================================---*/
+  /* ----=======================================---*/
+  
+  
+  .wrap-da{
+      display: flex;
+      flex-direction: column; 
+      background-color: white; 
+      height: 100%;
+  }
+  
+    /* Header  */
+    .header { 
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      height: 60px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      box-shadow: 0 4px 5px -3px rgba(153, 148, 148, 0.35);
+      position: fixed;
+    }
+    
+    .header h3{
+      margin-left: 19%;
+      color: black;
+    }
+  
+  
+    /* End Header  */
+    
+    /* Sidebar  */
+  
+  
+    .icon {
+
+      vertical-align:bottom;
+      margin-right: 15px;
+      font-size: 30px; 
+    }
+  
+  .go{
+
+    font-size: 20px;
+    height: 20px;
+    float: right;
+    
+  }
+  
+    .sidebar {
+      height: 100vh;
+      background-color: white;
+      box-shadow: 0 6px 7px 3px rgba(85, 81, 81, 0.35);
+      width: 200px;
+      position: fixed;
+     
+    }
+    
+  
+  .photo-wrap img{
+    margin-top: 60%;
+      margin-left: 45%;
+      height: 90px;
+      width: 90px;
+      border-radius: 50%;
+  }
+  
+    .sidebar-title {
+     
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 10px ;
+      padding-top: 10px;
+    }
+    
+  
+    .sidebar-title h3{
+      color: rgb(84, 81, 81);
+    }
+    
+  
+    .sidebar-list {
+      padding: 0;
+      list-style-type: none;
+      margin-top: 10px;
+    
+    }
+    
+  
+    .sidebar-list-item {
+
+      padding-left: 15px;
+      padding-right: 20px;
+      padding-top: 35px;
+      font-size: 18px;
+   
+    }
+    
+  
+  .dwn {
+      margin-top: 320px;  
+  }
+  
+  
+    .sidebar-list-item:hover {
+      cursor: pointer;
+    }
+  
+    .icon:hover{
+      color: rgb(194,157,89);
+    }
+    .sidebar  li :hover{
+      color: #c29d59;
+    }
+    .sidebar-list-item > a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
+  
+    Link{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
+   
+   .sidebar-right-side{
+      display: flex;
+      flex-direction: column;
+      margin-left: 160px;
+      padding-bottom: 20px;
+   }
+  
+    .total-booking{
+      padding: 40px; 
+    }
+  
+    .total-booking span{
+       padding: 60px;
+       font-size: 25px;
+    }
+  
+  
+      /*table*/
+  
+  
+  
+  .Add-tour-btn {
+      margin-top: 80px;
+      width: 150px;
+      height: 40px;
+      color: white;
+      border-radius: 10px;
+      border: 0;
+      background-color: rgb(154, 88, 7);
+      float: right;
+      margin-right: 55px;
+      margin-bottom: 30px;
+      cursor: pointer;
+  }
+  
+   /*       ========================= */
+  
+  
+  
+  .table{
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px 10px#f9f6f6de;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    overflow-x: auto;
+  }
+  
+  .table thead{
+    color: black;
+    font-weight: 800;
+  }
+  
+  th{
+    text-align: start;
+    
+  }
+  
+  .table th,
+  .table td{
+    padding: 0.8rem;
+  }
+  
+  .table td{
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .table img{
+    width: 90px;
+    height: 40px; 
+    border: 2px solid #c29d593a;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+  }
+  
+  .table tbody tr:hover {
+    background-color: rgba(212, 192, 167, 0.724);
+    cursor: pointer;
+  }
+  
+  .circle-loader{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   margin-left: 400px;
+   margin-top: 50px;
+  }
+  .circle-loaderr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: 50px;
+   }
+  
+  .actions{
+    display: flex;
+    gap: 14px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  
+  
+  .delete-btn{
+    color: #e00902;
+  }
+  .edit-buttonn{
+    color: #040504;
+  }
+  
+  
+  @media only screen and (max-width: 425px) {
+  
+    .circle-loaderr{
+      size: 20px!important;
+      margin-left: 0;
+      margin-top: -90px !important;
+      padding-bottom: 90px !important;
+  }
+  
+  .circle-loader{
+     size: 20px!important;
+      margin-left: 0;
+      margin-top: -90px !important;
+      padding-bottom: 60px !important;
+   }
+    .sidebar {
+      width: 100%;
+      height: 300px;
+      position:absolute;
+    }
+  
+    .sidebar-title {
+      justify-content: center;
+      padding: 10px;
+    }
+  
+    .sidebar-list-item {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .dwn {
+      margin-top: 0;
+    }
+  
+    .sidebar-right-side {
+      margin-left: 0;
+    }
+    .header{
+      width: 390px;
+      margin-top: 300px;
+      position: relative;
+    }
+    .Add-tour-btn{
+      margin-top: 30px;
+      width: 80px;
+      margin-right: 5px;
+    }
+  /* ============*/
+  
+  
+    .table {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .table img {
+      width: 70px;
+      height: 30px;
+    }
+  
+    .table td,
+    .table th {
+      padding: 3px;
+      font-size: 10px;
+    }
+  
+    .actions {
+      gap: 10px;
+    }
+  
+  
+  
+    .dashboard-center{
+      padding-left: 0;
+     
+  }
+  
+  .stat-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .stats-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+  }
+  
+  .charts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  
+  .left-chart{
+    height: 180px;
+    width: 380px;
+  }
+  .right-chart{
+    height: 180px;
+    padding-left: 90px;
+  
+  }
+  
+  
+  }
+  
+  
+  
+  @media screen and (min-width: 426px) and (max-width: 600px) {
+    .sidebar {
+      width: 100%;
+      height: 250px;
+    }
+  
+  
+  
+    .sidebar-title {
+      padding-left: 5px;
+      padding-top: 5px;
+    }
+  
+    .sidebar-title h3 {
+      font-size: 16px;
+    }
+  
+    .sidebar-list-item {
+      font-size: 16px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+    }
+  
+    .dwn {
+      margin-top: 10px;
+    }
+  
+    .sidebar-right-side {
+      margin-left: 0;
+    }
+  
+    .total-booking {
+      padding: 20px;
+    }
+  
+    .total-booking span {
+      padding: 30px;
+      font-size: 18px;
+    }
+  
+    .header{
+      width: 100%;
+      margin-top: 270px;
+      position:relative;
+    }
+  
+  /*    ==============main dash==============    */
+  
+  .dashboard-center{
+    padding-left: 0;
+    padding-top: 50px;
+   
+  }
+  
+  .stat-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .stats-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+  }
+  
+  .charts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
+  
+  .left-chart{
+  height: 180px;
+  width: 380px;
+  }
+  .right-chart{
+  height: 180px;
+  padding-left: 90px;
+  
+  }
+  
+  }
+  
+  
+  
+  
+  /* @media only screen and (max-width:768px){
+  
+    .header h3{
+      margin-left: 29%;
+    }
+    .stats-container{
+        display: flex;
+      flex-direction: column;
+      margin-top: 340px;
+     
+      }
+      .charts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        }
+  
+        .right-chart{
+  height: 380px;
+  padding-left: 10px;
+  }
+  .stats-img{
+    width: 100% !important;
+  }
+  .stats-img img{
+    width: 100%;
+  }
+  .table-component{
+    margin-left: 30px;
+  }
+  } */
+  
+  
+  

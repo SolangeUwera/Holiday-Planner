@@ -1,0 +1,626 @@
+.tour-ct{
+    display: flex;
+    flex-direction: column;
+}
+
+.dtour-head{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;   
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.dtour-head h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: aliceblue;
+    margin-top: 300px;
+}
+
+.tour-btmo{
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.tour-righht {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.right-formo{
+    margin-right: 40px;
+    margin-top: -80px;
+    padding-left: 56px;
+    box-shadow: 0 0 9px rgba(15, 1, 1, 0.9);
+    display: flex;
+    flex-direction: column;
+}
+
+.findd{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    border-left: 3px solid rgb(194,157,89);
+    padding-left: 7px;
+    margin-bottom: 15px;
+}
+
+
+
+.right-formo input{
+    height: 43px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+
+.txt-a{
+    height: 100px;
+    width:280px ;
+    margin-bottom: 10px;
+    resize: none;
+    text-indent: 30px;
+    padding-top: 10px;
+}
+
+.srch-f{
+    position: absolute;
+    color: rgb(194,157,89);
+    margin-top: 47px;
+    margin-left: 3px;
+   font-size: 20px;
+}
+
+.mal{
+    position: absolute;
+    color: rgb(194,157,89);
+    margin-top: 102px;
+    margin-left: 3px;
+   font-size: 20px;
+}
+
+.mal2{
+    position: absolute;
+    color: rgb(194,157,89);
+    margin-top: 155px;
+    margin-left: 3px;
+   font-size: 20px;
+}
+
+.pne{
+    position: absolute;
+    color: rgb(194,157,89);
+    margin-top: 208px;
+    margin-left: 3px;
+   font-size: 20px;  
+}
+
+.clnd{
+    position: absolute;
+    color: rgb(194,157,89);
+    margin-top: 262px;
+    margin-left: 3px;
+   font-size: 20px; 
+}
+
+.tper{
+    position: absolute;
+    color: rgb(194,157,89);
+    margin-top: 312px;
+    margin-left: 3px;
+   font-size: 20px; 
+}
+
+/* .tts-descriptiondep{
+    margin-left: 20px;
+    background-color: red;
+    } */
+.checkbox-item {
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 15px;
+}
+  
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+
+.checkbox-item label{
+color: black;
+vertical-align: middle;
+}
+
+.boo{
+   
+    width: 280px;
+}
+.boo :hover{
+    background-color: black;
+}
+
+/* ---------------------------------- */
+
+
+.quest-topp {
+    background-color: rgb(246,246,246);
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9);
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-top: 38px;
+    padding: 30px;
+}
+.quest-top-titlee {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.quest-top-titlee h1{
+color: black;
+font-weight: 800;
+font-size: 25px;
+margin-top: 9px;
+border-left: 3px solid rgb(194,157,89);
+padding-left: 5px;
+margin-bottom: 15px;
+}
+
+.lssst ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: rgb(155, 151, 151);
+}
+
+.arrrw {
+   margin-right: 3px;
+   padding-top: 5px;
+   color: black;
+}
+
+
+/* ---------------------------------- */
+
+.questt-tt {
+    background-color: rgb(194,157,89);
+    margin-top: 35px;
+    padding: 35px;
+    margin-right: 40px;
+    margin-left: 60px;
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9);
+}
+
+.questt-top-tite h1{
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 5px;
+    border-left: 3px solid black;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.questt-top-tite p {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.qsste{
+   height: 45px;
+   width: 25px;
+   color: black;
+   margin-right: 12px;
+}
+.sppd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+
+/*===============  ============= TOUR LEFT  =============  =================*/
+
+
+.tour-leftt{ 
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.nav {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+}
+
+.tour-leftt ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0;
+    flex: 1;
+}
+
+.tour-leftt li {
+    display: list-item;
+}
+
+.nav-link.active, .nav-link:hover {
+    background-color: rgb(194,157,89);
+    border-color: rgb(194,157,89) ;
+    color: white;
+}
+.nav-link {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 12px 5px;
+    text-align: center;
+    border: 1px solid black;
+    display: block;
+    text-decoration: none;
+    border-radius: 0 !important;
+    cursor: pointer;
+}
+
+/* ==============================================  */
+
+.tab-content .tab-pane {
+    padding: 40px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    position: relative;
+}
+
+.discount-label {
+    right: 0;
+    left: auto;
+    transform: unset;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    top: 0;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    color: white;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-xl{
+    width: 75%;
+    float: left;
+}
+.col-xl-3{
+    width: 25%;
+    float: left;
+}
+
+.tour-title {
+    margin-bottom: 30px;
+    width: 450px; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+.h2-title {
+    margin-bottom: 0;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    position: relative;
+}
+
+.tour-price-wp {
+    text-align: right;
+}
+
+.tour-price {
+    width: 130px;
+    height: 95px;
+    background-color: rgb(194,157,89);
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.h3-title {
+    font-size: 25px;
+    line-height: 35px;
+    color: white;
+    height: 50%;
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.tour-price p {
+    height: 50%;
+    font-size: 10px;
+    line-height: 20px;
+    color: white;
+    padding-top: 5px;
+}
+
+.tour-short-info-box {
+    background-color: rgb(194,157,89);
+    margin: 40px 0;
+}
+
+.tour-short-info-box ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 70px;
+    list-style: none;
+
+}
+
+.tour-short-info-box ul li{
+    text-align: center;
+}
+
+
+.text {
+    display: block;
+    color: black;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.tour-short-info-box a {
+    color:rgb(194,157,89) ;
+    text-decoration: none;
+}
+
+.tour-description {
+    width: 653px; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+.tour-video {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.tour-video video {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+
+
+.tour-timetable-schedule>ul>li {
+    display: inline-table;
+    width: 100%;
+}
+
+.tour-timetable-schedule ul li .tts-label {
+    border-top: 1px solid rgb(43 43 43 / .1);
+    border-right: 1px solid rgb(43 43 43 / .1);
+    padding: 17px 30px;
+    width: 50%;
+    display: table-cell;
+}
+
+.tour-timetable-schedule ul li .tts-label .h4-title {
+    margin-bottom: 0;
+}
+
+.tour-timetable-schedule ul li .tts-description {
+    padding: 17px 30px;
+    width: 50%;
+    display: table-cell;
+    border-top: 1px solid rgb(43 43 43 / .1);
+    vertical-align: middle;
+    color: var(--dark-color);
+}
+
+.tour-timetable-schedule ul li:last-child .tts-label,
+.tour-timetable-schedule ul li:last-child .tts-description {
+    border-bottom: 1px solid rgb(43 43 43 / .1);
+}
+
+.tour-timetable-schedule ul li .tts-description a {
+    color: var(--dark-color);
+}
+
+.tour-timetable-schedule ul li .tts-description a:hover {
+    color: var(--yellow-color);
+}
+
+
+
+
+.tts-description ul li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.tts-description ul li i {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    color: var(--yellow-color);
+    font-size: 16px;
+}
+
+.tts-description ul.not-included li i {
+    color: var(--dark-color);
+}
+
+
+@media only screen and (max-width: 425px){
+	
+.tour-btmo{
+    display: flex;
+    flex-direction: column;
+}
+.tour-description {
+    width: 255px; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+.tour-title {
+    margin-bottom: 30px;
+    width: 250px; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+
+.tour-leftt{ 
+    width: 100%;
+}
+
+.tour-leftt ul li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tour-price {
+    margin-left: -10px !important;
+   margin-top: 20px;
+   width: 110px;
+}
+
+.tour-short-info-box ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 13px;
+    gap: 10px;
+}
+
+.right-formo{
+    width: 310px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+
+.quest-topp {
+    margin-top: 38px;
+    padding: 30px;
+    width: 350px;
+    margin-left: 0;
+}
+
+.questt-tt {
+    width: 350px;
+    margin-left: 0;
+} 
+}
+
+
+@media screen and (min-width:426px) and (max-width: 600px) {
+  .tour-btmo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.right-formo{
+    width: 310px;
+    margin-top: 15px;
+    padding-left: 15px;
+    margin-left: -40px !important;
+}
+
+
+.quest-topp {
+    margin-top: 38px;
+    padding: 30px;
+    width: 350px;
+    margin-left: -40px !important;
+}
+
+
+.questt-tt {
+    width: 350px;
+    margin-left: -40px !important;
+} 
+}
+
+
+/* @media only screen and (max-width:768px){
+    .tour-btmo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+    .right-formo{
+        width: 400px;
+        margin-top: 15px;
+        margin-left: -60px !important;
+    }
+    
+    
+    .quest-topp {
+        margin-top: 38px;
+        padding: 30px;
+        width: 400px;
+        margin-left: -60px !important;
+    }
+    .questt-tt {
+        width: 400px;
+        margin-left: -60px !important;
+    } 
+} */

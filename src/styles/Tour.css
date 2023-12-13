@@ -1,0 +1,735 @@
+.tour-ct{
+    display: flex;
+    flex-direction: column;
+}
+
+.tour-head{
+  margin-top: -5%;
+    background-image: url(../assets/italy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;   
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.tour-head h1{
+    font-size: 90px;
+    font-weight: 900;
+    color: aliceblue;
+    margin-top: 300px;
+}
+
+.tour-btm{
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.tour-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sort-form {
+    margin-top: 20px;
+    display: flex;
+    padding: 5px;
+}
+.sort-form p{
+   height: 43px;
+   width: 250px;
+    border: 1px solid gray ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.sort-form select{
+    height: 43px;
+    width: 250px;
+    border: 1px solid gray ;
+    border-radius:0 ;
+    background-color: aliceblue;
+    outline: none;
+}
+
+
+
+.right-form{
+    margin-right: 40px;
+    margin-top: -80px;
+    padding-left: 56px;
+    box-shadow: 0 0 9px rgba(15, 1, 1, 0.9);
+    display: flex;
+    flex-direction: column;
+}
+
+.finddd{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    border-left: 3px solid rgb(194,157,89);
+    padding-left: 7px;
+    margin-bottom: 15px;
+}
+
+.dra{
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.right-form input{
+    height: 43px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.right-form select{
+    height: 47px;
+    width: 285px;
+    margin-bottom: 10px;
+}
+
+.srch-ff{
+    position: absolute;
+    color: rgb(194,157,89);
+    margin-top: 52px;
+    margin-left: 3px;
+   font-size: 20px;
+}
+
+.lct-ff {
+    position: absolute;
+    color: rgb(194,157,89);
+    margin-top: 108px;
+    margin-left: 3px;
+   font-size: 20px;
+}
+
+.cld-ff{
+    position: absolute;
+    color: rgb(194,157,89);
+    margin-top: 165px;
+    margin-left: 7px;
+   font-size: 20px;
+}
+
+
+.checkbox-item {
+    padding-left: 40px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+  
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+
+.checkbox-item label{
+color: black;
+vertical-align: middle;
+}
+
+.fnow {
+  margin-top: 6px;
+  color: wheat;
+  font-weight: 900;
+  background-color: rgb(194,157,89);
+  border: 0;
+  cursor: pointer;
+}
+
+.fnow :hover{
+  background-color: black;
+}
+/* ---------------------------------- */
+
+
+.quest-toppu {
+    background-color: rgb(246,246,246);
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9);
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-top: 38px;
+    padding: 30px;
+}
+
+.quest-top-titlee {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.quest-top-titlee h1{
+color: black;
+font-weight: 800;
+font-size: 25px;
+margin-top: 9px;
+border-left: 3px solid rgb(194,157,89);
+padding-left: 5px;
+margin-bottom: 15px;
+}
+
+.lssst ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: rgb(155, 151, 151);
+}
+
+.arrrw {
+   margin-right: 3px;
+   padding-top: 5px;
+   color: black;
+}
+
+
+/* ---------------------------------- */
+
+.questt-t {
+    background-color: rgb(194,157,89);
+    margin-top: 35px;
+    padding: 35px;
+    margin-right: 40px;
+    margin-left: 60px;
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9);
+}
+
+.questt-top-tite h1{
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 5px;
+    border-left: 3px solid black;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.questt-top-tite p {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.qsste{
+   height: 45px;
+   width: 25px;
+   color: black;
+   margin-right: 12px;
+}
+.sppd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+
+/*===============  ============= TOUR LEFT  =============  =================*/
+
+
+.tour-left{ 
+    width: 60%; 
+    display: flex;
+    flex-direction: column;  
+}
+
+.tourCards{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .tourCard{
+    background: #ffffff;
+    width: 48.5%;
+    height: 35rem;
+    box-shadow: 1px 1px 3px #858080;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  .tourCards img{
+    width: 100%;
+    height: 16rem;
+  }
+  .country{
+    background-color: #C29D59;
+    position: relative;
+    top: -0.5rem;
+    left: 2rem;
+    width: 34%;
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word;
+    height: 3rem;
+    margin-top: -2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .country1{
+    width: 44%;
+  }
+  
+  .cardDescription{
+    width: 100%;
+    height: 19rem;
+    padding: 1rem;
+    border-left: 3px solid #C29D59;
+  }
+  .tourCards p{
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .descri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 900;
+    width: 300px; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word;
+  }
+   .descr{
+    color: #5e5a5a;
+    font-weight: 800;
+  }
+  .time-size{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 6rem;
+    height: 4rem;
+    padding-top: 2rem;  
+    border-top: 1px solid #e4d8d8da;
+    border-bottom: 1px solid #e4d8d8da
+  }
+  .duration{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .duration h3{
+    display: flex;
+  }
+  .groupSize{ 
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  .groupSize h3{
+    display: flex;
+  }
+  .smallp{
+    color: grey;
+    font-size: 11px!important;
+    margin-left: 8px;
+  }
+  .footcards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 4rem;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .butCard{
+    background-color: #C29D59 ;
+    border: none;
+    outline: none;
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+  }
+  .butCard:hover{
+    background-color: #000;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .cardcons{
+    color: #C29D59;
+    font-size: 1.5rem;
+    margin-right: 5px;
+  }
+
+  .footcards p {
+    margin-top: 12px;
+  }
+
+
+
+@media only screen and (max-width: 425px) {
+
+  .tour-btm{
+    display: flex;
+    flex-direction: column;
+  }
+
+    .tour-head h1 {
+        font-size: 25px;
+        margin-top: 150px;
+    }
+
+    .country {
+        left: 0.5rem;
+        width: 150px;
+    }
+
+    .cardDescription {
+        height: auto;
+    }
+
+    .time-size {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        height: auto;
+    }
+    .quest-toppu {    
+     width: 350px;
+     margin-left: 0;
+     margin-right: 0;
+      margin-top: 38px;
+  }
+  .questt-t {
+    background-color: rgb(194,157,89);
+    margin-top: 35px;
+    padding: 35px;
+    width: 350px;
+    margin-right: 0;
+    margin-left: 0;
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9);
+}
+    .footcards p {
+      margin-right: 12px;
+    }
+    .sort-form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+  }
+  .sort-form p{
+     height: 43px;
+     width: 348px;
+      border: 1px solid gray ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: aliceblue;
+  }
+  
+  .sort-form select{
+      height: 43px;
+      width: 348px;
+      border: 1px solid gray ;
+      border-radius:0 ;
+      background-color: aliceblue;
+      outline: none;
+  }
+
+  .right-form{
+    margin-top: 10px;
+    display: flex;
+    padding-right: 300px;
+    flex-direction: column;
+    margin-left: 0; 
+}
+.tourCard{
+  width: 350px;
+  margin-left: 0;
+  height: auto;
+}
+
+.tourCards{
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.finddd{
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  border-left: 3px solid rgb(194,157,89);
+  padding-left: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.srch-ff{
+  margin-top: 98px;
+}
+
+.lct-ff {
+  margin-top: 150px;
+}
+
+.cld-ff{
+  margin-top: 200px;
+}
+
+}
+@media screen and (min-width: 426px) and (max-width: 600px) {
+  .tour-head h1 {
+    font-size: 25px;
+    margin-top: 150px;
+  }
+  .tour-btm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .country {
+    left: 0.5rem;
+    width: 150px;
+  }
+
+  .cardDescription {
+    height: auto;
+  }
+
+  .time-size {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    height: auto;
+  }
+
+  .quest-toppu {
+    width: 350px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 38px;
+  }
+
+  .questt-t {
+    background-color: rgb(194, 157, 89);
+    margin-top: 35px;
+    padding: 35px;
+    width: 350px;
+    margin-right: 0;
+    margin-left: 0;
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9);
+  }
+
+  .footcards p {
+    margin-right: 12px;
+  }
+
+  .sort-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sort-form p {
+    height: 43px;
+    width: 348px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+  }
+
+  .sort-form select {
+    height: 43px;
+    width: 348px;
+    border: 1px solid gray;
+    border-radius: 0;
+    background-color: aliceblue;
+    outline: none;
+  }
+
+  .right-form {
+    margin-top: 10px;
+    display: flex;
+    padding-right: 300px;
+    flex-direction: column;
+    margin-left: -50px !important;
+  }
+
+  .tourCard {
+    width: 350px;
+    margin-left: 0;
+    height: auto;
+  }
+
+  .tourCards {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .finddd {
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    border-left: 3px solid rgb(194, 157, 89);
+    padding-left: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .srch-ff {
+    margin-top: 98px;
+  }
+
+  .lct-ff {
+    margin-top: 150px;
+  }
+
+  .cld-ff {
+    margin-top: 200px;
+  }
+}
+
+
+/* @media only screen and (max-width:768px) {
+  .tour-head h1 {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  
+  .tour-btm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .country {
+    width: 200px;
+  }
+  
+  .cardDescription {
+    height: 100%;
+  }
+  
+  .time-size {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    height: auto;
+  }
+  
+  .quest-toppu {
+    width: 400px;
+    margin-top: 38px;
+    margin-left: -50px;
+  }
+  
+  .questt-t {
+    width: 400px;
+    margin-top: 35px;
+    padding: 35px;
+    margin-left: -50px;
+  }
+  
+  .footcards p {
+    margin-right: 20px;
+  }
+  
+  .sort-form {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .sort-form p,
+  .sort-form select {
+    width: 200px;
+  }
+  
+  .right-form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+    width: 400px;
+    padding-right: 0;
+  }
+  
+  .tourCard {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+  }
+  
+  .tourCards {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .finddd {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .srch-ff {
+    margin-top: 53px;
+  }
+  
+  .lct-ff {
+    margin-top: 106px;
+  }
+  
+  .cld-ff {
+    margin-top: 157px;
+  }
+} */

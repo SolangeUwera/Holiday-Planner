@@ -1,0 +1,23 @@
+.sidebar-right-sideee{
+    display: flex;
+    flex-direction: column;
+    margin-left: 210px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+.book-id{
+    width: 30px; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word;
+
+}
+
+@media only screen and (max-width: 425px) {
+    .sidebar-right-sideee{  
+        margin-left: -2px !important ;
+    }
+  
+
+}

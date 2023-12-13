@@ -1,0 +1,133 @@
+
+.sidebarr-right-sidee{
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+  }
+  
+  .tablee{
+      overflow: hidden;
+      table-layout: auto;
+      border-collapse: collapse;
+      box-shadow: 0px 10px 10px 10px#f9f6f6de;
+      border-radius: 10px;
+      width: 100%;
+      margin: auto;
+      overflow-x: auto;
+    }
+  
+    .tableeu{
+      margin-top: 50px;
+    }
+    
+    .tablee thead{
+      color: black;
+      font-weight: 800;
+    }
+    
+    .tablee th{
+      text-align: center;
+  
+    }
+  
+  
+    
+    .tablee th,
+    .tablee td{
+      padding: 0.5rem;
+    }
+    
+    .tablee td{
+      text-align: center;
+      border-top: 0.5px solid #ddd;
+      width: 50px; 
+      overflow-wrap: break-word; 
+      word-wrap: break-word; 
+      word-break: break-word;
+    }
+    .tablee tbody tr:hover {
+      background-color: rgba(212, 192, 167, 0.724);
+      cursor: pointer;
+    }
+  
+  .actionf{
+    display: flex;
+    padding-left: 1.5rem !important;
+    width: 100%;
+  }
+    .actionss{
+      display: flex;
+      gap: 14px;
+      flex-direction: row;
+      justify-content: flex-end;  
+    }
+    .right-td{
+      width: 10% !important;
+      padding-left: 1rem !important;
+     
+    }
+    .right-tdd{
+      width: 100% !important;
+      
+    }
+     
+    .delete-btns{
+      color: #e00902;
+    }
+    .edit-buttonns{
+      color: #040504;
+    }
+  .downn{
+  
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .paginationButtons{
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .paginationButtons a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(194,157,89);
+    color: rgb(194,157,89);
+    cursor: pointer;
+  }
+  
+  .paginationButtons a:hover{
+    color: white;
+    background-color:rgb(194,157,89);
+  }
+  .activePage a{
+    color: red;
+    background-color:rgb(194,157,89);
+  }
+   /* ======================== */ 
+  
+  
+   @media only screen and (max-width: 425px) {
+    .sidebarr-right-sidee{
+      margin-left: 21px;
+    }
+    .paginationButtons a{
+      padding: 9px;
+      margin: 1px;
+    }
+  }
+  
+  /* @media only screen and (max-width:768px){
+    .table-componentt{
+  padding-left: 50px;
+    }
+  } */
+  
+  
+  

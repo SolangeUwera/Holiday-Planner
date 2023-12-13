@@ -1,0 +1,366 @@
+.taicon {
+    background-color: rgb(50, 49, 50);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.futer1{
+    background-color: rgb(50, 49, 50);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;  
+    margin-bottom: -2%;
+}
+
+.here11{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: wheat;
+}
+.here1 P {
+    margin-left: 70px;
+}
+
+.here{
+margin-right: 110px;
+}
+.here ul li{
+    list-style: none;
+    display: inline-block;
+    flex-direction: row;
+    margin-right: 7px;
+}
+
+.poy{
+ border-right: 2px solid white;
+ padding-right: 5px;
+
+}
+
+.here111{
+    height: 2px;
+    width: 1100px;
+    align-items: center;
+    background-color: rgb(217, 225, 233);
+    margin-left: 5%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;  
+    padding-right: 20px;
+    
+}
+.left img{
+    width: 330px;
+    height: 100px;
+    padding-top: 10px;
+}
+.photopay img {
+    height: 40px;
+    width: 200px;
+    margin-bottom: -80px;
+}
+.left p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+span{
+    margin-bottom: 20px;
+}
+
+span input{
+    height: 40px;
+    width: 250px;
+    padding-left: 20px;
+    border: 1px solid white;
+    background-color: rgb(66,66,66);
+    color: aliceblue;
+}
+
+.middle a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+::placeholder {
+    color: wheat;
+  }
+
+span button{
+    height: 41px;
+    width: 100px;
+    border-radius: 1px;
+    border: 0;
+    color: whitesmoke;
+    background-color: rgb(194,157,89);
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: black;
+}
+.middle{
+    padding-left: 50px;  
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.line {
+    margin-top: 10px;
+    height: 1px;
+    width: 150px;
+    background-color: aliceblue;
+}
+.middle h1 {
+    color: aliceblue;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.middle ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.middle ul li {
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+.right {
+    padding-top: 28px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 20px;
+}
+
+.right h1 {
+    color: aliceblue;
+}
+
+.spn{
+    display: flex;
+    flex-direction: row;
+}
+.part1{
+    margin-top: 20px;
+}
+.part-1-left {
+    background-color: rgb(194,157,89);
+    height: 47px;
+    width: 3px;
+}
+
+.follow{
+    margin-left: 10px;
+}
+
+.follow h2{
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.follow p{
+    margin-top: 3px;
+    color: rgba(240, 248, 255, 0.826);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.here11111{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.here1111{
+    cursor: pointer;
+    color: rgb(194,157,89);
+}
+.here1111 :hover{
+color: antiquewhite;
+}
+.ist{
+    cursor: pointer;
+    color: rgb(194,157,89);
+}
+.ist :hover{
+    color: antiquewhite;
+}
+.fcb{
+    cursor: pointer;
+    color: rgb(194,157,89);
+}
+.fcb :hover{
+    color: antiquewhite;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    /* Tablets [601px -> 1200px] */
+    .taicon {
+      flex-direction: column;
+    }
+  
+    .here11 {
+      flex-direction: column;
+    }
+  
+    .here1 {
+      margin-left: 20px;
+    }
+  
+    .here {
+      margin-right: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .left {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .middle {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .right {
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-right: 0;
+    }
+  
+    .right h1 {
+      margin-top: 20px;
+    }
+  
+    .part1 {
+      margin-top: 10px;
+    }
+  
+    .follow h2 {
+      font-size: 16px;
+    }
+  
+    .follow p {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+  
+    .left {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .left img {
+      width: 200px;
+      height: auto;
+      padding-top: 5px;
+    }
+  
+    span input {
+      width: 180px;
+    }
+  
+    span button {
+      width: 80px;
+    }
+  
+    .middle {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+    }
+  
+    .middle h1 {
+      font-size: 18px;
+      margin-top: 5px;
+    }
+  
+    .right {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 0;
+    }
+  
+    .right h1 {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  
+    .follow h2 {
+      font-size: 16px;
+    }
+  
+    .follow p {
+      font-size: 14px;
+    }
+  
+    .here111 {
+      width: 90%;
+    }
+  
+    .here1 p {
+      margin-left: 60px;
+      font-size: 12px;
+      color: aliceblue;
+    }
+  
+    .here {
+      margin-left: 80px;
+    }
+  
+    .here ul li {
+      margin-right: 5px;
+      font-size: 12px;
+      color: aliceblue;
+    }
+  
+    .poy {
+      padding-right: 2px;
+    }
+  }
+
+
+
+  @media screen and (min-width: 426px) and (max-width: 600px) {
+    .here111 {
+      width: 450px;
+    }
+    .here{
+      margin-left: 95px;
+    }
+  }
+
+  /* @media only screen and (max-width:768px){
+    .here111 {
+      width: 90%;
+    }
+    .here1 {
+      margin-left: 130px;
+    }
+
+    .here {
+      margin-left: 200px;
+    }
+
+  } */

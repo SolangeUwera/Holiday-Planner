@@ -1,0 +1,425 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;   
+}
+.ct-top{
+    background-image: url(../assets/image.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ct-top h1{
+    color: white;
+    font-weight: 900;
+    font-size: 70px;
+    margin-top: 15%;
+}
+
+.ct-center {
+background-color: rgb(255,255,255);
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+
+
+
+form{
+    background-color: rgb(250, 250, 255);
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9);
+}
+
+.naem{
+    margin-bottom: 10px;
+    display: flex;
+    gap: 15px;
+    
+}
+.naem input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black; 
+    outline: none;
+}
+.tetx {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 15px;
+}
+.tetx input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black; 
+    outline: none;
+}
+.msg{
+    width: 615px;
+    height: 140px;
+    border-radius: 5px;
+    border: 1px solid black; 
+    resize: none;
+    text-indent: 50px;
+    padding-top: 20px;
+    outline: none;
+}
+
+form button{
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 150px;
+    border: 1px solid black; 
+    background-color: rgb(194,157,89);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input{
+    text-indent: 20px;
+}
+
+::placeholder{
+    color: black;
+}
+
+.fname{
+    color: rgb(194,157,89);
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 15px;
+}
+.mail{
+    color: rgb(194,157,89);
+    position: absolute;
+    margin-left: 319px;
+    margin-top: 16px;
+}
+
+.phn{
+    color: rgb(194,157,89);
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 16px;
+}
+
+.srv{
+    color: rgb(194,157,89);
+    position: absolute;
+    margin-left: 319px;
+    margin-top: 16px;
+}
+
+.quest {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    padding-bottom: 50px;
+}
+.quest-top {
+    background-color: rgb(250, 250, 255);
+    margin-top: -50px;
+    padding: 35px;
+    margin-right: 95px;
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9);
+}
+.quest-top-title {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.quest-top-title h1{
+color: black;
+font-weight: 800;
+font-size: 25px;
+margin-top: 5px;
+border-left: 3px solid rgb(194,157,89);
+padding-left: 5px;
+margin-bottom: 15px;
+}
+
+.lsst ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: rgb(155, 151, 151);
+}
+
+.arrw {
+   margin-right: 3px;
+   padding-top: 5px;
+   color: black;
+}
+
+.quest-t {
+    background-color: rgb(194,157,89);
+    margin-top: 35px;
+    padding: 35px;
+    margin-right: 95px;
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9);
+}
+
+.quest-top-tite h1{
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 5px;
+    border-left: 3px solid black;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.quest-top-tite p {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.qste{
+   height: 45px;
+   width: 25px;
+   color: black;
+   margin-right: 12px;
+}
+.spd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+.ct-bottom-right{
+    width: 80%;
+}
+
+.maaap{
+ width: 100%;
+ height: 100%;
+}
+
+.ct-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.ct-bottom-left{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246,246,246);
+}
+.office{
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.office h1{
+    font-weight: 800;
+    font-size: 21px;
+    margin-left: 15px;
+    border-left: 3px solid rgb(194,157,89);
+    padding-left: 8px;
+    margin-top: 10px;
+}
+
+.lctn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+.lctn-icon{
+    background-color: rgb(255,255,255);
+    box-shadow: 0 0 5px rgba(15, 1, 1, 0.9); 
+    padding: 3px;
+    height: 25px;
+    width: 25px;
+    color: rgb(194,157,89);
+}
+
+.lctn p {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+    .contact-container {
+      flex-direction: column;
+    }
+    
+    .ct-top h1 {
+      font-size: 40px;
+      margin-top: 20%;
+    }
+    
+    .ct-center {
+      flex-direction: column;
+    }
+    
+    form {
+      margin: 20px;
+    }
+    
+    .naem input,
+    .tetx input,
+    .msg {
+      width: 100%;
+    }
+    
+    .msg {
+      height: 100px;
+      padding-top: 10px;
+    }
+    
+    .fname {
+        margin-top: 15px;
+      }
+      .phn{
+        margin-top: 17px;
+      }
+    .mail,
+    .srv {
+      margin-top: 15px;
+      margin-left: 165px;
+    }
+    
+    .quest {
+      margin: 20px;
+    }
+    
+    .quest-top {
+      margin-top: 0;
+      margin-right: 0;
+    }
+    
+    .quest-t {
+      margin-top: 20px;
+      margin-right: 0;
+    }
+    
+    .ct-bottom {
+      flex-direction: column;
+    }
+    
+    .ct-bottom-left {
+      margin: 20px;
+    }
+    
+    .office {
+     
+      padding-bottom: 0;
+      margin: 0;
+    }
+    
+    .office h1 {
+      font-size: 18px;
+      margin-left: 40px;
+      margin-top: 19px;
+      
+    }
+    
+    .lctn {
+      margin-left: 5px;
+      padding-left: 40px;
+    }
+    
+    .lctn p {
+      margin-left: 5px;
+      margin-top: 0; 
+    }
+    
+    .maaap {
+      height: 300px;
+      margin-left: 36px;
+    }
+  }
+
+  @media screen and (min-width: 426px) and (max-width: 600px) {
+    .ct-top h1 {
+      font-size: 40px;
+      margin-top: 20%;
+    }
+
+    .mail,
+    .srv {
+      margin-top: 77px;
+      margin-left:  6px;
+    }
+  
+    .ct-center {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    form {
+      margin: 80px 20px;
+    }
+  
+    .naem,
+    .tetx {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .naem input,
+    .tetx input {
+      width: 100%;
+    }
+  
+    .msg {
+      width: 100%;
+    }
+  
+    form button {
+      width: 100%;
+    }
+  
+    .quest-top-title h1 {
+      font-size: 20px;
+    }
+  
+    .ct-bottom-left {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .office {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .lctn {
+      margin-left: 0;
+    }
+  }
+
+
+  /* @media only screen and (max-width:768px) {
+
+    .ct-center {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .quest{
+      margin-top: 90px;
+      margin-left: 99px;
+    }
+ 
+    form {
+      margin-left: 2px;
+    }
+
+  } */
